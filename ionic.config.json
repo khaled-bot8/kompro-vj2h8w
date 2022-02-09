@@ -1,0 +1,8 @@
+{
+  "name": "Kompro",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "34dc5736"
+}
