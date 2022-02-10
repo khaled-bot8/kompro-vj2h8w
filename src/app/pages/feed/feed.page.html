@@ -1,0 +1,193 @@
+<ion-header>
+
+
+    <ion-fab vertical="top" horizontal="start">
+      <ion-fab-button class="fabby" [translucent]="true">
+        <ion-icon name="menu"></ion-icon>
+      </ion-fab-button>
+      <ion-fab-list side="bottom">
+        <ion-fab-button>
+          <ion-icon name="logo-vimeo"></ion-icon>
+        </ion-fab-button>
+        <ion-fab-button>
+          <ion-icon name="logo-chrome"></ion-icon>
+        </ion-fab-button>
+        <ion-fab-button>
+          <ion-icon name="logo-react"></ion-icon>
+        </ion-fab-button>
+      </ion-fab-list>
+    </ion-fab>
+
+   <ion-title class="text">Feed</ion-title>
+
+</ion-header>
+
+<ion-content>
+
+  <ion-card style="border-radius: 15px;">
+    <ion-item>
+      <ion-label><ion-icon name="funnel-outline"></ion-icon> Filter</ion-label>
+      <ion-select multiple="true" [value]="['Romance', 'Business']">
+        <ion-select-option value="Business">Business</ion-select-option>
+        <ion-select-option value="Romance">Romance</ion-select-option>
+        <ion-select-option value="Roommate">Roommate</ion-select-option>
+        <ion-select-option value="Freelance">Freelance</ion-select-option>
+      </ion-select>
+    </ion-item>
+</ion-card>
+
+<ion-card style="border-radius: 15px;">
+  <ion-card-header>
+    <ion-item>
+    <ion-card-subtitle class="good"> In Review</ion-card-subtitle>
+   
+    <h6 slot="end"> 2hours ago </h6>
+    </ion-item>
+    <ion-card-title>Kompro Project</ion-card-title>
+  </ion-card-header>
+
+  <ion-card-content>
+   This is a compromise about launching the activities of...
+   <ion-grid>
+     <ion-row class="row">
+   <ion-avatar class="av"> 
+    <img src="assets/images/logo.png">
+  </ion-avatar>
+    <ion-avatar class="av"> 
+    <img src="assets/images/logo.png">
+  </ion-avatar>
+    <ion-avatar class="av"> 
+    <img src="assets/images/logo.png">
+  </ion-avatar>
+  <ion-avatar class="av"> 
+    <img src="assets/images/logo.png">
+  </ion-avatar>
+  </ion-row>
+  </ion-grid>
+  </ion-card-content>
+  <div class="butt">
+  <ion-button color="tertiary">View More</ion-button>
+  </div>
+
+  <ion-footer>
+    <ion-toolbar>
+      <ion-grid>
+        <ion-row>
+          <div class="eye">
+            <ion-button  fill="flat" color="light">
+          <ion-icon color="secondary" name="eye-sharp" ></ion-icon>
+      <ion-badge>6</ion-badge>
+      </ion-button>
+          &nbsp;
+          &nbsp;
+          &nbsp;
+          &nbsp;
+          <ion-button  fill="flat" color="light">
+          <ion-icon color="secondary" name="chatbubbles-sharp"></ion-icon>
+          <ion-badge>86</ion-badge>
+          </ion-button>
+          </div>
+        </ion-row>
+      </ion-grid>
+    </ion-toolbar>
+  </ion-footer>
+</ion-card>
+&nbsp;
+&nbsp;
+&nbsp;
+<ion-card style="border-radius: 15px;">
+  <ion-card-header>
+    <ion-item>
+    <ion-card-subtitle color="danger"> Not Okay</ion-card-subtitle>
+   
+    <h6 slot="end"> 24hours ago </h6>
+    </ion-item>
+    <ion-card-title>Roommate</ion-card-title>
+  </ion-card-header>
+
+  <ion-card-content>
+   This is a compromise about roomates activities of...
+   <ion-grid>
+     <ion-row class="row">
+   <ion-avatar class="av"> 
+    <img src="assets/images/logo.png">
+  </ion-avatar>
+    <ion-avatar class="av"> 
+    <img src="assets/images/logo.png">
+  </ion-avatar>
+
+  </ion-row>
+  </ion-grid>
+  </ion-card-content>
+  <div class="butt">
+  <ion-button color="tertiary">View More</ion-button>
+  </div>
+
+  <ion-footer>
+    <ion-toolbar>
+      <ion-grid>
+        <ion-row>
+          <div class="eye">
+            <ion-button  fill="flat" color="light">
+          <ion-icon color="secondary" name="eye-sharp" ></ion-icon>
+      <ion-badge>6</ion-badge>
+      </ion-button>
+          &nbsp;
+          &nbsp;
+          &nbsp;
+          &nbsp;
+          <ion-button  fill="flat" color="light">
+          <ion-icon color="secondary" name="chatbubbles-sharp"></ion-icon>
+          <ion-badge>86</ion-badge>
+          </ion-button>
+          </div>
+        </ion-row>
+      </ion-grid>
+    </ion-toolbar>
+  </ion-footer>
+</ion-card>
+&nbsp;
+&nbsp;
+&nbsp;
+<ion-card style="border-radius: 15px;">
+  <ion-card-header>
+    <ion-item>
+    <ion-card-subtitle color="warning"> Rejected</ion-card-subtitle>
+   
+    <h6 slot="end"> 2days ago </h6>
+    </ion-item>
+    <ion-card-title>Date</ion-card-title>
+  </ion-card-header>
+
+  <ion-card-content>
+   This is a proposed compromise from Khaled to Hailey...
+   <ion-grid>
+     <ion-row class="row">
+   <ion-avatar class="av"> 
+    <img src="assets/images/logo.png">
+  </ion-avatar>
+    <ion-avatar class="av"> 
+    <img src="assets/images/logo.png">
+  </ion-avatar>
+
+  </ion-row>
+  </ion-grid>
+  </ion-card-content>
+  <div class="butt">
+  <ion-button color="tertiary"> View More </ion-button>
+  </div>
+
+  <ion-footer>
+    <ion-toolbar>
+      <div class="iye">
+    
+          
+          <ion-icon  color="secondary"  name="lock-closed"> </ion-icon>
+          <p class="pp">Private</p>
+        
+        
+      </div>
+    </ion-toolbar>
+  </ion-footer>
+</ion-card>
+</ion-content>

@@ -1,0 +1,183 @@
+.logo{
+    position: absolute;
+width: 97px;
+height: 73.05px;
+left: 110px;
+top: 33px;
+}
+ion-content{
+    --ion-background-color: #303030;
+}
+.kompro{
+    /* Kompro */
+
+position: absolute;
+width: 396px;
+height: 65px;
+left: 85px;
+top: 90px;
+
+font-family: Monda;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 59px;
+display: flex;
+align-items: center;
+text-align: center;
+
+/* whiteBG */
+color: #ffff;
+
+
+}
+.tap{
+    position: absolute;
+width: 131px;
+height: 24px;
+left: calc(50% - 131px/2 + 5.5px);
+top: 135px;
+
+font-family: Monda;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 150%;
+
+/* identical to box height, or 24px */
+text-align: right; 
+color: #dfd8d8;
+}
+.email{
+      display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px 16px;
+
+position: absolute;
+width: 306px;
+height: 35px;
+left: 25px;
+top: 180px;
+
+/* overlay/gray */
+--ion-background-color: rgba(158, 158, 158, 0.25);
+border-radius: 4px;
+}
+.pass{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px 16px;
+
+position: absolute;
+width: 306px;
+height: 35px;
+left: 25px;
+top: 230px;
+
+/* overlay/gray */
+--ion-background-color: rgba(158, 158, 158, 0.25);
+border-radius: 4px;
+
+}
+.butt{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 24px;
+    
+    position: absolute;
+    width: 308px;
+    height: 38px;
+    left: 4px;
+    top: 278px;
+    
+    border-radius: 4px;
+    /* blue1 */
+   
+   
+}
+.gog{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 24px;
+    
+    position: absolute;
+    width: 308px;
+    height: 38px;
+    left: 3px;
+    top: 328px;
+    font-size: 12px;
+    
+    /* blue1 */
+   
+    --ion-background-color: #0c3b60;
+    border-radius: 4px;
+}
+.app{
+    position: absolute;
+width: 214px;
+height: 28px;
+left: 47px;
+top: 595px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 150%;
+
+/* or 24px */
+text-align: center;
+
+/* whiteBG */
+color: #DFD8D8;
+
+
+
+}
+.vect{
+    height: 100%;
+}
+
+.login{
+    position: absolute;
+    left: 19px;
+    top: 406px;
+    
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 150%;
+
+/* or 24px */
+text-align: center;
+
+color: #DFD8D8;
+
+}
+.sign{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 24px;
+
+
+position: absolute;
+
+height: 38px;
+left: 148px;
+top: 392px;
+
+
+/* blue1 */
+
+border-radius: 4px;
+}

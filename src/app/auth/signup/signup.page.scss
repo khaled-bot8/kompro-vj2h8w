@@ -1,0 +1,202 @@
+ion-content{
+    --ion-background-color: #303030;
+    align-content: center;
+    justify-content: center;
+}
+ion-header{
+    --ion-background-color: #303030;
+}
+.text{
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 29.32px;
+    width: 104px;
+    height: 24px;
+    top: 39px;
+    left: 39px;
+    color: #fff;
+}
+.logo{
+    height: 40px;
+    width: 48px;
+    border-left: 18px;
+   
+}
+.name{
+
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px 16px;
+
+position: absolute;
+width: 306px;
+height: 38px;
+left: 25px;
+top: 60px;
+
+/* overlay/gray */
+--ion-background-color: rgba(158, 158, 158, 0.25);
+border-radius: 4px;
+
+}
+.account{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 16px;
+    
+    position: absolute;
+    width: 306px;
+    height: 32px;
+    left: 17px;
+    top: 10px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    
+    /* or 24px */
+    text-align: center;
+    color: rgba(255, 255, 255, 0.952);
+
+}
+.email{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px 16px;
+
+position: absolute;
+width: 306px;
+height: 38px;
+left: 25px;
+top: 108px;
+
+/* overlay/gray */
+--ion-background-color: rgba(158, 158, 158, 0.25);
+border-radius: 4px;
+}
+.password{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px 16px;
+
+position: absolute;
+width: 306px;
+height: 38px;
+left: 25px;
+top: 156px;
+
+/* overlay/gray */
+--ion-background-color: rgba(158, 158, 158, 0.25);
+border-radius: 4px;
+
+}
+.conf{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px 16px;
+
+position: absolute;
+width: 306px;
+height: 38px;
+left: 25px;
+top: 204px;
+
+/* overlay/gray */
+--ion-background-color: rgba(158, 158, 158, 0.25);
+border-radius: 4px;
+
+}
+.butt{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 24px;
+
+position: absolute;
+width: 306px;
+height: 38px;
+left: 4px;
+top: 268px;
+
+border-radius: 4px;
+
+
+}
+.login{
+    position: absolute;
+left: 60px;
+top: 369px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 150%;
+
+/* or 24px */
+text-align: center;
+color: rgba(255, 255, 255, 0.952);
+
+}
+.sign{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 24px;
+
+position: absolute;
+width:128px;
+height: 40px;
+left: 170px;
+top: 350px;
+
+border-radius: 4px;
+
+
+}
+.gog{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 24px;
+
+position: absolute;
+width: 306px;
+height: 38px;
+left: 3px;
+top: 415px;
+font-size: 13px;
+
+}
+.app{
+    position: absolute;
+width: 214px;
+height: 28px;
+left: 48px;
+top: 499px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 150%;
+
+/* or 24px */
+text-align: center;
+
+/* whiteBG */
+color: #DFD8D8;
+
+
+}

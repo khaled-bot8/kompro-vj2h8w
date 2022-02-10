@@ -1,0 +1,101 @@
+.text{
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: rgb(255, 255, 255);
+   
+}
+ion-title{
+    padding-top: 6%;
+}
+ion-header{
+    background-color: #0C3B6E;
+    color: #0C3B6E;
+}
+ion-content{
+    --background: #0C3B6E;
+    --padding-top: 25px;
+
+}
+
+.men{
+    position: absolute;
+    left: 3%;
+    right: 5%;
+    top: 40%;
+    bottom: 17.5%;
+    
+    /* gray / 9 white */
+    
+
+}
+.fabbo{
+    left: 3%;
+    top: 10%;
+    bottom: 17.5%;
+    color: #0C3B6E;
+    --ion-background-color:#0C3B6E;
+}
+.fabby{
+    --background:var(--ion-background-color);
+    --border-radius: 1px;
+
+}
+
+.logo{
+    font-size: 15px;
+}
+.good{
+    color: #2dd36f;
+}
+.row{
+    margin-right: 1%;
+}
+.av{
+   width: 45px;
+   height: 45px;
+   justify-self: center;
+    margin: auto;
+}
+.butt{
+text-align: center;
+}
+
+.eye{
+   
+    
+     color: #0C3B6E;   
+     font-size: 25px;
+  margin: auto;
+}
+ion-content{
+    --background: url("/assets/images/vv.jpeg");
+
+}
+ion-card{
+    box-shadow: #0C3B6E;
+    border: #0C3B6E;
+    border-width: 5px;
+    
+    border-radius: 5px;
+
+}
+ion-badge{
+    font-size: 8px;
+    margin: auto;
+}
+.y{
+    --background: transparentize(100);
+  --background-hover: #FFFFFF;
+}
+.iye{
+    color: #0C3B6E;   
+    font-size: 30px;
+    text-align: center;
+
+}
+.pp{
+    font-size: 12px;
+    margin-top: 0.8px;
+}

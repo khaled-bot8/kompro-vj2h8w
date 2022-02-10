@@ -1,0 +1,85 @@
+<ion-header>
+ 
+  <ion-grid>
+
+  <ion-row>
+    <ion-icon class="yu" color="light" name="arrow-back" (click)="dismiss()"></ion-icon>
+  <ion-title class="text">New Compromise</ion-title>
+  <ion-icon class="yu" color="light" name="alert-circle"></ion-icon>
+
+</ion-row>
+ </ion-grid>
+
+</ion-header> 
+
+
+
+
+<ion-content>
+  <ion-card>
+    <ion-item>
+      <ion-label position="floating">Name of Compromise</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label>Type of Compromise</ion-label>
+      <ion-select value="Promise" okText="Okay" cancelText="Dismiss">
+        <ion-select-option value="Promise">Promise</ion-select-option>
+        <ion-select-option value="Agreement">Agreement</ion-select-option>
+        <ion-select-option value="Contract">Contract</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Category of Compromise</ion-label>
+      <ion-select value="Business" okText="Okay" cancelText="Dismiss">
+        <ion-select-option value="roomates">Roommate</ion-select-option>
+        <ion-select-option value="Business">Business</ion-select-option>
+        <ion-select-option value="Work">Work</ion-select-option>
+        <ion-select-option value="Romance">Romance</ion-select-option>
+        <ion-select-option value="School">School</ion-select-option>
+        <ion-select-option value="Family">Family</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Description</ion-label>
+      <ion-textarea></ion-textarea>
+    </ion-item>
+
+
+  </ion-card>
+<ion-card>
+  <ion-card-header>Parties</ion-card-header>
+  
+    <ion-item>
+      <ion-avatar>
+        <img src="assets/images/logo.png">
+      </ion-avatar>
+    </ion-item>
+   
+ <div class="ad">
+    <ion-button color="secondary"> <ion-icon name="add"></ion-icon> Add Parties</ion-button>
+    
+</div>
+</ion-card>
+
+<ion-card>
+  <ion-card-header>Costs </ion-card-header>
+  
+    <ion-item>
+    
+      <ion-input placeholder=" Please write your Costs..."></ion-input>
+      <ion-button color="secondary" slot="end"> <ion-icon name="add"></ion-icon> </ion-button> 
+    </ion-item>
+    
+   
+ <div class="ad">
+    <ion-button color="secondary" round> <ion-icon name="color-wand"></ion-icon> Use templates</ion-button>
+    
+</div>
+</ion-card>
+
+
+</ion-content>
